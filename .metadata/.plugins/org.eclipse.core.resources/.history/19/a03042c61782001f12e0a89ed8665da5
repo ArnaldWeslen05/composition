@@ -23,7 +23,7 @@ public class Progam {
 		System.out.println("Enter worker data ");
 		System.out.print("Name:");
 		String workerName = sc.nextLine();
-		System.out.print("Level:");
+		System.out.print("Name:");
 		String workerLevel = sc.nextLine();
 		System.out.print("Base Salary:");
 		double baseSalary = sc.nextDouble();

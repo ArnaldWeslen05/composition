@@ -1,0 +1,32 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Department;
+import entities.Worker;
+import entities.enums.WorkLevel;
+
+public class Progam {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter department's name: ");
+		String departamentName = sc.nextLine();
+		System.out.println("Enter department's name: ");
+		System.out.print("Name:");
+		String workerName = sc.nextLine();
+		System.out.print("Name:");
+		String workerLevel = sc.nextLine();
+		System.out.print("Base Salary:");
+		double baseSalary = sc.nextDouble();
+		Worker worker = new Worker(workerName, WorkLevel.valueOf(workerLevel), baseSalary, new Department(departamentName));
+		
+		
+		sc.close();
+
+	}
+
+}

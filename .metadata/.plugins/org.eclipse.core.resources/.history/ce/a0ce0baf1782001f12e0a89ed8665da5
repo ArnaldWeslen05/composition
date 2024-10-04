@@ -20,10 +20,10 @@ public class Progam {
 		
 		System.out.print("Enter department's name: ");
 		String departamentName = sc.nextLine();
-		System.out.println("Enter worker data ");
+		System.out.println("Enter department's name: ");
 		System.out.print("Name:");
 		String workerName = sc.nextLine();
-		System.out.print("Level:");
+		System.out.print("Name:");
 		String workerLevel = sc.nextLine();
 		System.out.print("Base Salary:");
 		double baseSalary = sc.nextDouble();
